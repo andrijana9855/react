@@ -1,0 +1,30 @@
+:root {
+    --primary: rgba(238, 108, 221, 0.829);
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    background: rgba(250, 241, 247, 0.733);
+    color: rgba(201, 47, 162, 0.774);
+    transition: 250ms;
+}
+
+.btn--primary {
+    background-color: var(--primary);
+}
+
+.btn--medium {
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
